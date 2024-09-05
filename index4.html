@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <title>Old Hindi Songs</title>
+  <link rel="icon" type="images/x-icon" href="images/favicon.png">
+
+  <link rel="stylesheet" href="style/styles4.css">
+
+
+  <script src="https://kit.fontawesome.com/58d52e55c9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg  navbar-dark">
+      <a class="navbar-brand" href="">
+        <a class="link" href="index.html">
+          <h2 class="brandTag">MyMusic</h2>
+        </a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <ul class="navbar-nav ms-auto" id="navbarTogglerDemo01">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#musicPart">Listen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#connectSocials">Connect on Socials</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <!-- Old Hindi Page section -->
+
+  <section class="hindiSongs">
+
+    <div class="allSongs">
+      <h1 class="heading">Old Hindi Songs</h1>
+      <div class="song" id="song1">
+        <img class="tumSeHi" src="images/LagJa.jpg" alt="">
+        <h3 class="songText">Lag Jaa Gale</h3>
+        <h4>04:18</h4>
+      </div>
+
+      <div class="song" id="song2">
+        <img class="tumSeHi" src="images/PyarDeewana.jpg" alt="">
+        <h3 class="songText">Pyar Deewana Hota Hai</h3>
+        <h4>04:30</h4>
+      </div>
+
+      <div class="song" id="song3">
+        <img class="tumSeHi" src="images/EkPyar.jpg" alt="">
+        <h3 class="songText">Ek Pyar ka Nagma Hai</h3>
+        <h4>05:59</h4>
+      </div>
+      <div class="song" id="song4">
+        <img class="tumSeHi" src="images/OMere.jpg" alt="">
+        <h3 class="songText">O Mere Dil ke Chain</h3>
+        <h4>04:56</h4>
+      </div>
+      <div class="song" id="song5">
+        <img class="tumSeHi" src="images/MereSamne.jpg" alt="">
+        <h3 class="songText"> Mere Samne Wali Khidki Me</h3>
+        <h4>02:52</h4>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Toggle Bar Section -->
+
+  <div class="Toggle">
+
+    <div class="toggleSection">
+
+      <div class="icons">
+
+        <h3 id="toggleMusic">Song Name</h3>
+        <div class="iconLogo">
+          <i id="prev" class="icon fa-solid fa-2x fa-backward-step"></i>
+          <i id="mainButt" class="icon fa-regular fa-2x fa-circle-play"></i>
+
+          <i id="forw" class="icon  fa-solid fa-2x fa-forward-step"></i>
+        </div>
+        <div class=gifDiv>
+          <img class="GIF" src="images/gif.gif">
+        </div>
+      </div>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+      </div>
+    </div>
+  </div>
+  <footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index4.js" charset="utf-8"></script>
+
+  </footer>
+</body>
+
+</html>

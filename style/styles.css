@@ -1,0 +1,62 @@
+body{
+  overflow-x: hidden;
+}
+.firstSection {
+  background-color: #0a183d;
+}
+
+.brandTag {
+  margin: 15% auto 15% 25%;
+}
+
+.container-fluid {
+  background-color: #08192d;
+}
+
+.webText {
+  font-size: 4rem;
+  color: white;
+  margin: 15% 15% 20% 20%;
+}
+
+.title-image {
+  margin: 10% 5%;
+}
+
+#musicPart {
+  background-color: #0a183d;
+}
+
+.musicSelect {
+  text-align: center;
+  color: white;
+}
+
+.card {
+  text-align: center;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: black;
+}
+
+.hindiCard {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.punjabiCard {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.oldHIndiCard {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.englishCard {
+  margin-top: 10%;
+  margin-left: 10%;
+}
