@@ -1,2 +1,2 @@
-# MyMusic-Webapp
+# Sargam-Webapp
 A music webapp clone
